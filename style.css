@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-body{
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-family: 'PT Sans', sans-serif;
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
 }
 
 nav {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 2fr;
-    background: white;
-    height: 15vh;
-    /* padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  background: white;
+  height: 15vh;
+  /* padding: 0px;
     position: sticky;
     top: 0px; */
 }
@@ -36,22 +36,25 @@ nav {
     outline: none
 }
 
+.videoStreams {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+}
 
-
-.videoStreams{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    justify-items: center;
+.btn-green {
+  height: 44px;
+  width: 119px;
+  border-radius: 15px;
 }
 
 footer {
-    background-color: white;
-    height: 3vh;
-    display: flex;
-    flex-direction: row;
+  background-color: white;
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 900px) {
- 
 }
