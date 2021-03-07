@@ -113,6 +113,8 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  /* position: absolute;
+  bottom: 0; */
 }
 
 /**** Tags ****/
