@@ -24,6 +24,18 @@ nav {
     top: 0px; */
 }
 
+#settings{
+    background-color: transparent;
+    border: 0;
+    color: #1d1d81;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#settings:focus {
+    outline: none
+}
+
 .videoStreams {
   display: grid;
   grid-template-columns: 1fr 1fr;
