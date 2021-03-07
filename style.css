@@ -27,9 +27,11 @@ nav {
 #settings{
     background-color: transparent;
     border: 0;
-    color: #1d1d81;
+    color: #515158;
     cursor: pointer;
     font-size: 25px;
+    justify-self: start;
+    padding-left: 15px;
 }
 
 #settings:focus {
