@@ -31,10 +31,18 @@ nav {
   justify-items: center;
 }
 
+/*** Buttons ***/
+
 .btn-green {
   height: 44px;
   width: 119px;
   border-radius: 15px;
+}
+
+.btn-exit {
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
 }
 
 footer {
