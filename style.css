@@ -4,13 +4,14 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
-  color: white;
+  color: #515158;
   font-family: 'PT Sans', sans-serif;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-size: 40pt;
+ 
 }
 
 nav {
@@ -39,6 +40,15 @@ nav {
   outline: none;
 }
 
+.timer {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
 .videoStreams {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -52,6 +62,9 @@ nav {
   height: 44px;
   width: 119px;
   border-radius: 15px;
+  background-color: #47C39E;
+  color: white;
+  justify-self: center;
 }
 
 .btn-sq {
